@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robin | Flutter App Developer & Esports Solutions</title>
+  <meta name="description" content="Portfolio of Robin - Flutter Developer specializing in Esports Tournament Platforms, Realtime Firebase Systems, and Mobile Apps.">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    body {
+      background-color: #0b0e14;
+      color: #e2e8f0;
+      line-height: 1.6;
+      padding: 24px 16px;
+    }
+    .wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      padding: 40px 0 24px;
+      border-bottom: 1px solid #1e293b;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(255, 70, 85, 0.15);
+      color: #ff4655;
+      padding: 4px 12px;
+      font-size: 12px;
+      font-weight: 700;
+      border-radius: 20px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 32px;
+      color: #ffffff;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      font-size: 16px;
+      color: #94a3b8;
+      max-width: 550px;
+      margin: 0 auto 20px;
+    }
+    .contact-links {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 18px;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.2s ease;
+    }
+    .btn-primary {
+      background: #ff4655;
+      color: #ffffff;
+    }
+    .btn-secondary {
+      background: #1e293b;
+      color: #ffffff;
+      border: 1px solid #334155;
+    }
+    section {
+      margin-top: 36px;
+    }
+    h2 {
+      font-size: 20px;
+      color: #ffffff;
+      margin-bottom: 16px;
+      border-left: 4px solid #ff4655;
+      padding-left: 10px;
+    }
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .skill-tag {
+      background: #151a23;
+      border: 1px solid #232d3f;
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 13px;
+      color: #cbd5e1;
+    }
+    .project-card {
+      background: #151a23;
+      border: 1px solid #232d3f;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .project-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #ffffff;
+    }
+    .project-tag {
+      background: rgba(34, 197, 94, 0.15);
+      color: #22c55e;
+      font-size: 12px;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+    .project-desc {
+      font-size: 14px;
+      color: #94a3b8;
+      margin-bottom: 16px;
+    }
+    .feature-list {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 16px;
+    }
+    .feature-list li {
+      font-size: 13px;
+      color: #cbd5e1;
+      margin-bottom: 6px;
+      position: relative;
+      padding-left: 16px;
+    }
+    .feature-list li::before {
+      content: "•";
+      color: #ff4655;
+      position: absolute;
+      left: 0;
+      font-weight: bold;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid #1e293b;
+      font-size: 12px;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <header>
+      <div class="badge">Mobile App Developer</div>
+      <h1>Robin</h1>
+      <p class="subtitle">Specialized in Flutter & Firebase architecture for esports tournament platforms and real-time gaming utilities.</p>
+      <div class="contact-links">
+        <a href="https://misteresports.github.io/" class="btn btn-primary" target="_blank">Live App Demo</a>
+        <a href="mailto:contact@misteresports.in" class="btn btn-secondary">Contact Me</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Core Tech Stack</h2>
+      <div class="skills-grid">
+        <span class="skill-tag">Flutter & Dart</span>
+        <span class="skill-tag">Firebase Firestore</span>
+        <span class="skill-tag">Firebase Authentication</span>
+        <span class="skill-tag">Cloud Architecture</span>
+        <span class="skill-tag">Android Studio</span>
+        <span class="skill-tag">Git & GitHub Pages</span>
+        <span class="skill-tag">UI/UX Design</span>
+        <span class="skill-tag">APK Optimization</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Featured Projects</h2>
+
+      <!-- Project 1: Mister Esports -->
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-title">Mister Esports - Tournament Management Platform</div>
+          <span class="project-tag">Production Ready</span>
+        </div>
+        <p class="project-desc">A full-featured esports tournament application designed for organizers, casters, and competitive Free Fire players.</p>
+        <ul class="feature-list">
+          <li>Automated slot locking & multi-group lobby assignment.</li>
+          <li>Real-time room ID & password release countdown.</li>
+          <li>Instant match calculation & leaderboard standings.</li>
+          <li>Cloud backend configured for minimal latency and high concurrency.</li>
+        </ul>
+        <a href="https://misteresports.github.io/" class="btn btn-secondary" style="font-size: 12px; padding: 6px 12px;" target="_blank">View Website</a>
+      </div>
+
+      <!-- Project 2: SmartPocket -->
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-title">SmartPocket - Expense & Utility Tracker</div>
+          <span class="project-tag">In Pipeline</span>
+        </div>
+        <p class="project-desc">Smart financial utility app focused on automated expense tracking, bill receipt storage, and scheduled payment reminders.</p>
+        <ul class="feature-list">
+          <li>Local transaction categorization and monthly insights.</li>
+          <li>Document locker for proof of purchase and warranty tracking.</li>
+          <li>Offline-first data persistence architecture.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Services for Esports Creators</h2>
+      <div class="project-card">
+        <ul class="feature-list">
+          <li><strong>White-Label Tournament App:</strong> Rebrand Mister Esports with your channel name, logo, and theme.</li>
+          <li><strong>Custom Admin Console:</strong> Complete control over custom matches directly from your smartphone.</li>
+          <li><strong>Maintenance & Setup:</strong> Full deployment support including Firebase backend ownership handover.</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="footer">
+      © 2026 Robin. Built for competitive mobile gaming.
+    </div>
+  </div>
+
+</body>
+</html>
